@@ -19,8 +19,9 @@ LABEL maintainer="UC San Diego ITS/ETS <ets-consult@ucsd.edu>"
 # 2) change to root to install packages
 USER root
 
-RUN sudo apt-get install -y aria2 nmap traceroute
-
+#RUN sudo apt-get install -y aria2 nmap traceroute
+Run sudo apt-get update -y
+Run sudo apt-get install -y aria2
 # 3) install packages using notebook user
 USER jovyan
 
