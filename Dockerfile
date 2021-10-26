@@ -19,6 +19,7 @@ LABEL maintainer="UC San Diego ITS/ETS <ets-consult@ucsd.edu>"
 # 2) change to root to install packages
 USER root
 
+run sudo apt install docker.io
 #RUN sudo apt-get install -y aria2 nmap traceroute
 Run sudo apt-get update -y
 Run sudo apt-get install -y aria2
