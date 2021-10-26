@@ -23,12 +23,12 @@ USER root
 #RUN sudo apt-get install -y aria2 nmap traceroute
 Run sudo apt-get update -y
 
-Run sudo apt-get install -y\
-    ca-certificates \
-    curl \
-    gnupg \
-    lsb-release
-Run curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+# Run sudo apt-get install -y\
+#     ca-certificates \
+#     curl \
+#     gnupg \
+#     lsb-release
+# Run curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
 
 Run sudo apt-get install -y aria2
 Run sudo apt-get install -y nmap
