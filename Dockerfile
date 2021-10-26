@@ -23,7 +23,7 @@ USER root
 #RUN sudo apt-get install -y aria2 nmap traceroute
 Run sudo apt-get update -y
 
-Run sudo apt-get install \
+Run sudo apt-get install -y\
     ca-certificates \
     curl \
     gnupg \
